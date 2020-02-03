@@ -9,7 +9,7 @@ class Song
   end
 
   def new_by_name
-    
+    new_by_name = self.new_by_name
   end
 
   def self.all
