@@ -3,7 +3,7 @@ class Song
   @@all = []
 
   def self.create
-
+    song = self.new
   end
   def self.all
     @@all
