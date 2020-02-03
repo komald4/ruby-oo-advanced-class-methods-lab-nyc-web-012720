@@ -41,6 +41,7 @@ class Song
     #seperate artist name by -
     #remove .mp3 on song name
     info = filename.split(" - ")
+    song = self.new
   end
 
   def self.all
