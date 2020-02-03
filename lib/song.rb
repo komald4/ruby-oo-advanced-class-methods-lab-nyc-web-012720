@@ -3,8 +3,6 @@ class Song
   @@all = []
   
 
-  end
-
   def self.all
     @@all
   end
