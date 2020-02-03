@@ -33,7 +33,11 @@ class Song
   end
 
   def self.new_from_filename(filename)
-
+    #filename = " "
+    #return a new song instance
+    #set song name to name song ""
+    #set artisti name to name of artist ""
+    #parse filename for song and artist name only
   end
 
   def self.all
