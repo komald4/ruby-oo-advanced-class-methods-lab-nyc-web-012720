@@ -29,7 +29,7 @@ class Song
   end
 
   def self.alphabetical
-    song_name.sort_by
+    @@all? { |e|  }.sort_by
   end
 
 
