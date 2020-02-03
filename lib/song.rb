@@ -25,7 +25,11 @@ class Song
   end
 
   def self.find_or_create_by_name(song_name)
-    self.find_by_name(song_name) || self.create_by_name(song_name) # OR operator 
+    self.find_by_name(song_name) || self.create_by_name(song_name) # OR operator
+  end
+
+  def self.alphabetical(song_name)
+
   end
 
 
